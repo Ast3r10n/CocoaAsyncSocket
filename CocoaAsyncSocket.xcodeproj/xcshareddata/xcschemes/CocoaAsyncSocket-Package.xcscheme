@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7D8B70C31BCFA15700D8E273"
+               BlueprintIdentifier = "CocoaAsyncSocket::CocoaAsyncSocket"
                BuildableName = "CocoaAsyncSocket.framework"
-               BlueprintName = "tvOS CocoaAsyncSocket"
+               BlueprintName = "CocoaAsyncSocket"
                ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CocoaAsyncSocket::SharedObjCTests"
+               BuildableName = "SharedObjCTests.xctest"
+               BlueprintName = "SharedObjCTests"
+               ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CocoaAsyncSocket::SharedSwiftTests"
+               BuildableName = "SharedSwiftTests.xctest"
+               BlueprintName = "SharedSwiftTests"
+               ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -40,15 +60,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7D8B70C31BCFA15700D8E273"
-            BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "tvOS CocoaAsyncSocket"
-            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,15 +67,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7D8B70C31BCFA15700D8E273"
-            BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "tvOS CocoaAsyncSocket"
-            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
